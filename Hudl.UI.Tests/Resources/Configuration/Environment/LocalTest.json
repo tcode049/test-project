@@ -1,0 +1,5 @@
+{
+  "browserType": "Chrome",
+  "baseUrl": "https://www.hudl.com",
+  "loginUrl": "https://identity.hudl.com"
+}

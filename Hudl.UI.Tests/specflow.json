@@ -1,0 +1,32 @@
+{
+    "bindingCulture": {
+        "name": "en-GB"
+    },
+    "stepDefinitions": {
+        "timeout": "00:00:30"
+    },
+    "runtime": {
+        "stopAtFirstError": true,
+        "parallel": {
+            "testThreadCount": 1,
+            "testSchedulingMode": "Sequential"
+        }
+    },
+    "unitTestProvider": {
+        "name": "NUnit"
+    },
+    "specFlow": {
+        "generator": {
+            "generator": {
+                "markFeaturseParallelizable": true,
+                "allowDebugGeneratedFiles": false,
+                "allowRowTests": true
+            }
+        },
+        "trace": {
+            "traceSuccessfulSteps": true,
+            "traceTimings": true,
+            "minTracedDuration": "0:0:0.1"
+        }
+    }
+}

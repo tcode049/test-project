@@ -1,0 +1,14 @@
+.history/
+.vscode
+bin
+obj
+**/*.feature.cs
+**/run_tests.sh
+coverage
+.DS_Store
+.idea
+**/*.user
+.git
+/tmp
+/TestLog
+test-output.log
